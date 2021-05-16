@@ -1,0 +1,172 @@
+<html>
+
+<head>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="Icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="Icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="Icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="Icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="Icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="Icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="Icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="Icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="Icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="Icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Icon/favicon-16x16.png">
+    <link rel="manifest" href="Icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="rgba(10,100,200,0.2)" />
+    <script>
+        var Num = 0;
+        setInterval(function () {
+
+            document.title = Num + 'Palavras';
+            Num = Num + 1;
+
+            if (Num % 2 == 0) {
+                Texto = 'Jãum'
+            }
+            else { Texto = 'Richards' }
+
+            var Xa = document.querySelector('#Unico')
+            Xa.innerHTML = Texto
+
+        }, 1000)
+
+
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Girassol&family=Pangolin&family=Goblin+One&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(143, 32, 32);
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            height: 100%;
+            width: 100%;
+
+            background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+            background-size: 1800% 1800%;
+
+            -webkit-animation: rainbow 18s ease infinite;
+            -z-animation: rainbow 18s ease infinite;
+            -o-animation: rainbow 18s ease infinite;
+            animation: rainbow 18s ease infinite;
+        }
+
+        @-webkit-keyframes rainbow {
+            0% {
+                background-position: 0% 82%
+            }
+
+            50% {
+                background-position: 100% 19%
+            }
+
+            100% {
+                background-position: 0% 82%
+            }
+        }
+
+        @-moz-keyframes rainbow {
+            0% {
+                background-position: 0% 82%
+            }
+
+            50% {
+                background-position: 100% 19%
+            }
+
+            100% {
+                background-position: 0% 82%
+            }
+        }
+
+        @-o-keyframes rainbow {
+            0% {
+                background-position: 0% 82%
+            }
+
+            50% {
+                background-position: 100% 19%
+            }
+
+            100% {
+                background-position: 0% 82%
+            }
+        }
+
+        @keyframes rainbow {
+            0% {
+                background-position: 0% 82%
+            }
+
+            50% {
+                background-position: 100% 19%
+            }
+
+            100% {
+                background-position: 0% 82%
+            }
+        }
+
+        .table {
+
+            background: rgba(255, 255, 255, 0.6);
+            box-shadow: 20px 20px 45px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        h2 {
+            font-family: 'Pangolin';
+            letter-spacing: 8px;
+            color: blueviolet;
+        }
+
+        h3 {
+            color: crimson;
+            font-family: 'Goblin one', cursive;
+        }
+    </style>
+
+    <title>É nois</title>
+</head>
+
+<body>
+
+
+    <div class="table">
+
+        <h2 id="Unico">Jãum Jãum</h2>
+        <h3>Que Doideira</h3>
+    </div>
+    <p class="texto"></p>
+</body>
+
+</html>
