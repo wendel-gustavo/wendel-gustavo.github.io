@@ -1,2 +1,8 @@
 Ao utilizar a arquitetura MVC, Model View Controller, como uma forma de organização de código, separando as camadas de apresentação, controle do sistema e de comunicação com o banco de dados, facilitandoç a manutenção do código, sendo possível alterar, também, apenas o modo de visualizaçao e operação em diferentes plataformas.
 
+
+Pelo fato da facil manutenção e a possibilidade de no futuro, partir de praticamente qualquer ponto do banco de dados, a MVC é a forma ideal para a organização
+
+O padrão MVC (Model-View-Controller) possibilita melhor organização do projeto do sistema, pois separa as camadas de apresentação, camada de controle e camada de persistência de dados, dessa forma facilita o entendimento e a  manutenção do código. O sistema pode ser adaptado para diferentes dispositivos e plataformas alterando apenas a camada de visualização (view), sem interferir nos dados e nas regras de negócio da aplicação.
+
+Tendo em vista que a aplicação será executada a partir de diversos dispositivos, desde um computador desktop até um tablet ou smartphone, este padrão de desenvolvimento torna-se adequado, pois permite a melhor adaptação para cada disposito.
